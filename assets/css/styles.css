@@ -1,5 +1,7 @@
 /* ===== GOOGLE FONTS ===== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;900&display=swap');
 /* ===== VARIABLES CSS ===== */
 :root{
     --header-height: 3rem;
@@ -303,8 +305,11 @@ img{
 .skills__js{
     width: 65%;
 }
-.skills__ux{
+.skills__python{
     width: 85%;
+}
+.skills__github{
+    width: 55%;
 }
 .skills__img{
     justify-self: center;
@@ -322,7 +327,9 @@ img{
     box-shadow: 0 4px 25px rgba(14,36,49,.15);
     border-radius: .5rem;
     overflow: hidden;
-    margin-right: 75px;
+    margin-right: 30px;
+    margin-left: 30px;
+    justify-self: center;
 }
 .work__img img{
     transition: 1s;
