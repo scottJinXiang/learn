@@ -330,6 +330,8 @@ img{
     margin-right: 30px;
     margin-left: 30px;
     justify-self: center;
+    align-self: center;
+    border: 1px solid var(--second-color);
 }
 .work__img img{
     transition: 1s;
